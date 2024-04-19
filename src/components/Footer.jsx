@@ -1,9 +1,11 @@
 import React from "react";
-
+import { Link } from "gatsby";
 export default function Footer() {
   return (
     <footer>
-      <h1 className="text-green-500">Foot</h1>
+      <Link to="/" className="text-blue-500">
+        ShorditchAI
+      </Link>
     </footer>
   );
 }
