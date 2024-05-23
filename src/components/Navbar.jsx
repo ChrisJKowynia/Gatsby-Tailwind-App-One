@@ -17,7 +17,7 @@ export default function Navbar() {
   if (menu === true) {
     menuStatus = "-mt-80";
   } else {
-    menuStatus = "mt-4 transition-[margin-top] duration-500 ease-in-out";
+    menuStatus = "mt-4";
   }
   return (
     <nav className="flex justify-between">
@@ -31,7 +31,7 @@ export default function Navbar() {
           <span className="text-black font-normal">AI</span>
         </Link>
         <div
-          className={`flex flex-col justify-between items-start  ${menuStatus}  ml-7 h-28 z-10 lg:mt-4 lg:flex-row lg:items-center lg:ml-0 lg:h-0 lg:w-80 lg:transition-none`}
+          className={`flex flex-col justify-between items-start  ${menuStatus}  ml-7 h-28 z-10 lg:mt-4 lg:flex-row lg:items-center lg:ml-0 lg:h-0 lg:w-80`}
         >
           <Link to="/contact" className="text-gray-400">
             Contact
