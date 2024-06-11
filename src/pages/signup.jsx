@@ -38,8 +38,7 @@ export default function Signup() {
     );
   } else {
     formContent = (
-      <div className="bg-white w-64 h-34 mt-24 border-[1px] border-gray-200 rounded-md drop-shadow-2xl ">
-        {" "}
+      <div className="bg-white w-64 h-40 mt-24 border-[1px] border-gray-200 rounded-md drop-shadow-2xl ">
         <h1 className="text-3xl font-bold pt-3 pl-3">Received</h1>
         <p className="p-3">
           Please follow the verification link we sent to your emial. *It may
