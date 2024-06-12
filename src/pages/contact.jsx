@@ -57,8 +57,8 @@ export default function Contact() {
       <div className="bg-white w-64 h-40 mt-24 border-[1px] border-gray-200 rounded-md drop-shadow-2xl ">
         <h1 className="text-3xl font-bold pt-3 pl-3">Received</h1>
         <p className="p-3">
-          Thank you for reaching out. We will respond to you you with an email
-          within 12 hours.
+          Thank you for reaching out! We will respond to you with an email
+          within 12 hours or less.
         </p>
       </div>
     );
