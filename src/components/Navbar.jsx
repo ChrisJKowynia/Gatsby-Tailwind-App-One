@@ -19,6 +19,12 @@ export default function Navbar() {
   } else {
     menuStatus = "mt-4";
   }
+
+  const wandStyle = {
+    color: "#1E40AF", // blue-500 in Tailwind CSS
+    fontSize: "1.25rem",
+  };
+
   return (
     <nav className="flex justify-between">
       <div className="flex flex-col justify-between ml-4 my-4 md:ml-20 lg:mr-20 lg:flex-row lg:w-full lg:mt-4 lg:mb-2">
@@ -26,7 +32,7 @@ export default function Navbar() {
           to="/"
           className="text-xl font-bold text-blue-500 z-20 bg-white -mt-8 pt-8"
         >
-          <FontAwesomeIcon icon={faWandMagicSparkles} />
+          <FontAwesomeIcon icon={faWandMagicSparkles} style={wandStyle} />
           <span> SHORDITCH</span>
           <span className="text-black font-normal">AI</span>
         </Link>
